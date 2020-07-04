@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/gomarkdown/markdown/ast"
+	"github.com/louisun/markdown/ast"
 )
 
 // parse '(#r)', where r does not contain spaces. Or.

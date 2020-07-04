@@ -3,8 +3,8 @@ package markdown
 import (
 	"testing"
 
-	"github.com/gomarkdown/markdown/html"
-	"github.com/gomarkdown/markdown/parser"
+	"github.com/louisun/markdown/html"
+	"github.com/louisun/markdown/parser"
 )
 
 func TestPrefixHeaderNoExtensions(t *testing.T) {
@@ -170,7 +170,7 @@ func TestTOC(t *testing.T) {
 	tests := readTestFile2(t, "TOC.tests")
 	doTestsParam(t, tests, TestParams{
 		extensions: parser.HeadingIDs,
-		Flags: html.UseXHTML | html.TOC,
+		Flags:      html.UseXHTML | html.TOC,
 	})
 }
 

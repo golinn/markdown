@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/gomarkdown/markdown/ast"
-	"github.com/gomarkdown/markdown/html"
-	"github.com/gomarkdown/markdown/parser"
+	"github.com/louisun/markdown/ast"
+	"github.com/louisun/markdown/html"
+	"github.com/louisun/markdown/parser"
 )
 
 // Renderer is an interface for implementing custom renderers.

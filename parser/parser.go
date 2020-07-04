@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/gomarkdown/markdown/ast"
+	"github.com/louisun/markdown/ast"
 )
 
 // Extensions is a bitmask of enabled parser extensions.
@@ -142,7 +142,7 @@ func NewWithExtensions(extension Extensions) *Parser {
 
 	p.inlineCallback[' '] = maybeLineBreak
 	p.inlineCallback['*'] = emphasis
-	p.inlineCallback['_'] = emphasis
+	//p.inlineCallback['_'] = emphasis
 	if p.extensions&Strikethrough != 0 {
 		p.inlineCallback['~'] = emphasis
 	}
