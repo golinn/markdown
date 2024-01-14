@@ -1,3 +1,3 @@
-module github.com/louisun/markdown
+module github.com/golinn/markdown
 
 go 1.14
